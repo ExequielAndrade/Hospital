@@ -1,0 +1,103 @@
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+    <a class="navbar-brand" href="#">HospitaNashe</a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse collapse" id="navbarColor03" >
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Informacion al paciente</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Quienes somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Reservar hora</a>
+        </li>
+      </ul>
+      <form class="form-inline">
+        <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Iniciar Secion</button>
+      </form>
+    </div>
+  </nav>
+
+
+<div class="container-fluid">
+
+  <div class="row">
+    <div class="col-lg-3 col-3 text-center">
+      Barra Lateral
+    </div>  <!-- col-3 -->
+
+    <div class="col-lg-9 col-9 text-center mt-3"> <!-- mt-3 M margen T arriba 3 cantidad -->
+      
+      <div class="row">
+
+        <div class="col-lg-4 col-12">
+          <div class="card" >
+            <img src="{{imglink}}" class="card-img-top" alt="..."> <!--imglink interpolacion de componen.ts -->
+            <div class="card-body">
+              <p class="card-text">La mejor campeona (Foto de paciente).</p>
+              <div class="row">
+                <div class="col-12 text-left">
+                    <p class="text-muted">{{nombre}}</p>
+                    <p class="text">{{edad}}</p>
+                    <p class="text">{{sintoma}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-12">
+          <div class="card" >
+            <img src="{{imglink}}" class="card-img-top" alt="..."> <!--imglink interpolacion de componen.ts -->
+            <div class="card-body">
+              <p class="card-text">La mejor campeona (Foto de paciente).</p>
+              <div class="row">
+                <div class="col-12 text-left">
+                    <p class="text-muted">{{nombre}}</p>
+                    <p class="text">{{edad}}</p>
+                    <p class="text">{{sintoma}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-12">
+          <div class="card" >
+            <img src="{{imglink}}" class="card-img-top" alt="..."> <!--imglink interpolacion de componen.ts -->
+            <div class="card-body">
+              <p class="card-text">La mejor campeona (Foto de paciente).</p>
+              <div class="row">
+                <div class="col-12 text-left">
+                    <p class="text-muted">{{nombre}}</p>
+                    <p class="text">{{edad}}</p>
+                    <p class="text">{{sintoma}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+                  
+        <!-- </div>
+        <div class="col-4">
+          item2
+        </div>
+        <div class="col-4">
+          item3
+        </div> -->
+
+      </div>
+    </div> <!--  col 9 -->
+  </div>
+
+</div>
+
+
